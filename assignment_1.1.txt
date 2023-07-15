@@ -1,0 +1,18 @@
+#Write a Python program to get the Fibonacci series between 0 to 50?
+#CODE
+
+n = int(input("Enter no.of terms to ptint:"))
+n1=0
+n2=1
+for i in range(0,n):
+    n3=n1+n2
+    print(n2,end=" ")
+    n1=n2
+    n2=n3
+
+
+
+#OUTPUT:
+
+Enter no.of terms to ptint:9
+1 1 2 3 5 8 13 21 34
